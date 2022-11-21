@@ -65,6 +65,5 @@ local function w_init(net, arg)
     end
     return net
 end
-
-
 return w_init
+
