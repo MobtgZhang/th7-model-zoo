@@ -5,7 +5,11 @@ First, you should install the torch7 library
 ```bash
 luarocks install torch
 ```
-And then you can train the model.
+And then, you should download the dataset for the training 
+```bash
+bash download.sh
+```
+last, you can train the model.
 ```bash
 th main.lua
 ```
